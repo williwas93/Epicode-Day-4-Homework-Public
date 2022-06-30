@@ -1,0 +1,157 @@
+/*     Epicode Day 4 Homework - Pinterest    */
+
+/* Import */
+
+@import url('https://fonts.googleapis.com/css2?family=Signika:wght@600&display=swap');
+
+/*  Body  */
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+
+/* Icon */
+
+.material-symbols-outlined {
+  color: black;
+    font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
+
+/*  Pinterest Card  */
+
+.pin {
+    position: relative;
+    top: 25vh;
+    width: 300px;
+    height: 350px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+    overflow: hidden;
+    transition: box-shadow 0.3s;
+  }
+  
+  .pin:hover {
+    transition-duration: 0.5s;
+    box-shadow: 0 10px 40px -4px rgb(0 0 0 / 55%);
+   /* opacity: 0.8;
+    transition: opacity 0.5s ease-in-out; */
+  }
+
+  /*  Sale Box  */
+
+  .salebox_text {
+    font-family: "Signika";
+    position: absolute;
+    right: 20px;
+    bottom: 300px;
+    left: 140px;
+    background-color: rgb(199, 27, 27);
+    text-align: center;
+    padding-bottom: 8px;
+    padding-top: 8px;
+    padding-left: 8px;
+    padding-right: 8px;
+    color: white;
+    transform: translateX(0px);
+    transition: transform 0.3s, opacity 0.2s;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  .salebox_text:hover {
+    transition-duration: 0.5s;
+    box-shadow: 0 10px 40px -4px rgb(0 0 0 / 55%);
+    opacity: 0.8;
+    transition: opacity 0.5s ease-in-out;
+  }
+
+  /*  Open URL  */
+
+  .open_url {
+    font-family: "Signika";
+    position: absolute;
+    left: 30px;
+    bottom: 20px;
+    background-color: rgb(197, 190, 190);
+    text-align: center;
+    padding-bottom: 4px;
+    padding-top: 4px;
+    padding-left: 8px;
+    padding-right: 8px;
+    color: rgb(0, 0, 0);
+    transform: translateX(0px);
+    transition: transform 0.3s, opacity 0.2s;
+    border-radius: 10px;
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+.open_url:hover {
+    transition-duration: 0.5s;
+    box-shadow: 0 10px 40px -4px rgb(0 0 0 / 55%);
+    opacity: 0.8;
+    transition: opacity 0.5s ease-in-out;
+  }
+
+   /*  Upload  */
+
+   .ul {
+    font-family: "Signika";
+    position: absolute;
+    left: 170px;
+    bottom: 20px;
+    background-color: rgb(197, 190, 190);
+    text-align: center;
+    padding-bottom: 4px;
+    padding-top: 4px;
+    padding-left: 8px;
+    padding-right: 8px;
+    color: rgb(0, 0, 0);
+    transform: translateX(0px);
+    transition: transform 0.3s, opacity 0.2s;
+    border-radius: 10px;
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+.ul:hover {
+    transition-duration: 0.5s;
+    box-shadow: 0 10px 40px -4px rgb(0 0 0 / 55%);
+    opacity: 0.8;
+    transition: opacity 0.5s ease-in-out;
+  }
+
+  /*  Cont  */
+
+  .cont {
+    font-family: "Signika";
+    position: absolute;
+    left: 215px;
+    bottom: 20px;
+    background-color: rgb(197, 190, 190);
+    text-align: center;
+    padding-bottom: 4px;
+    padding-top: 4px;
+    padding-left: 8px;
+    padding-right: 8px;
+    color: rgb(0, 0, 0);
+    transform: translateX(0px);
+    transition: transform 0.3s, opacity 0.2s;
+    border-radius: 10px;
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+.cont:hover {
+    transition-duration: 0.5s;
+    box-shadow: 0 10px 40px -4px rgb(0 0 0 / 55%);
+    opacity: 0.8;
+    transition: opacity 0.5s ease-in-out;
+  }
+
+ 
